@@ -319,4 +319,3 @@ An IncFIB(K)-associated region was additionally identified in SRR7345603, althou
 
 14. Tonkin-Hill G, MacAlasdair N, Ruis C, Weimann A, Horesh G, Lees JA, et al. Producing polished prokaryotic pangenomes with the Panaroo pipeline. Genome Biol. 2020;21:180. doi:10.1186/s13059-020-02090-4.
 
-15. Wong TKF, Ly-Trong N, Ren H, Demotte P, Baños H, Roger AJ, et al. IQ-TREE 3: phylogenomic inference software using complex evolutionary models. Mol Biol Evol. 2026;43(5):msag117. doi:10.1093/molbev/msag117.
