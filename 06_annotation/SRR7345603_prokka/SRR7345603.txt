@@ -1,0 +1,7 @@
+organism: Klebsiella species strain 
+contigs: 139
+bases: 5296923
+CDS: 4877
+rRNA: 19
+tRNA: 89
+tmRNA: 1

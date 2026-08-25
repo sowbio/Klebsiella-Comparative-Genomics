@@ -1,0 +1,58 @@
+plasmidfinder Results
+
+Organism(s): Enterobacteriaceae
+
+****************************************************************************************
+Enterobacteriaceae,Acenitobacter baumannii
+**************************************************************************************************************************************
+Plasmid      Identity  Query / Template length    Contig                              Position in contig    Note    Accession number
+**************************************************************************************************************************************
+IncFIB(K)       98.93  560 / 560                  NODE_33_length_22726_cov_40.357672  1520..2079            Kpn3    JN233704
+======================================================================================================================================
+
+
+
+
+Extended Output:
+
+# IncFIB(K)_JN233704
+template: 	GTTTGGGGTTGCGATAATGCACGCTGAAATAGGTGGCTCGGCCACGTTTAAACTCGGTGT
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	GTTTGGGGTTGCGATAATGCACGCTGAAATAGGTGGCTCGGCCACGTTTAAACTCGGTGT
+
+template: 	AATCCAGATAACCAATATCCCGCAGCTGCTCCATCGCCTTACGCACCGTGTGGTTCTGCG
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	AATCCAGATAACCAATATCCCGCAGCTGCTCCATCGCCTTACGCACCGTGTGGTTCTGCG
+
+template: 	TATAGACATTTGAGGTGAGATTCAGCCGGTCACGCATCCGTTTCATGGAAATAGGTGCAG
+          	|||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||
+query:    	TATAGACATTTGAGGTGAGATTCAGCCGCTCACGCATCCGTTTCATGGAAATAGGTGCAG
+
+template: 	GATTCTGGGGAAGACTTTCGATGTAGGTATAAAGCGCCTGGGCTGATTCCTTGCGCTGCA
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	GATTCTGGGGAAGACTTTCGATGTAGGTATAAAGCGCCTGGGCTGATTCCTTGCGCTGCA
+
+template: 	GGGCGTCAATGGCTTTCAGCCGCAGCAGTACCCTTCTGTCCATGTGGTAAAGCTCAAACA
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	GGGCGTCAATGGCTTTCAGCCGCAGCAGTACCCTTCTGTCCATGTGGTAAAGCTCAAACA
+
+template: 	GCTTAGGTTCAGCCTTTATCTCAACGATATCCTCGGTGATGTCATAATAGGCTGACTGCA
+          	|||||||||||||||| |||||||||||||||||| ||||||||||||||||||||||||
+query:    	GCTTAGGTTCAGCCTTGATCTCAACGATATCCTCGTTGATGTCATAATAGGCTGACTGCA
+
+template: 	CCAGATGGGTGGTCCATCCTTTGGTCTCGCTCTGGAACTTCAGCGTAACCGAGGCAAGTT
+          	|||||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||
+query:    	CCAGATGGGTGGTCCATCCTTTGGTCTCGCTCTGGAACTTCAACGTAACCGAGGCGAGTT
+
+template: 	TAAACAGGGAATTACTGATGCGATCGCGCATTTTTTTGTTTGAACGACGGGAGTTAAATC
+          	|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||
+query:    	TAAACAGGGAATTACTGATGCGATCGCGCATTTTTTTGTTTGAACGACGGGAGTCAAATC
+
+template: 	CGCACATCTTAACGAATTCGACGAACGACAGTTCCAGGGTGTCACTTTTTACCCCATACT
+          	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query:    	CGCACATCTTAACGAATTCGACGAACGACAGTTCCAGGGTGTCACTTTTTACCCCATACT
+
+template: 	CCGACATGGAGCGAATTATC
+          	||||||||||||||||||||
+query:    	CCGACATGGAGCGAATTATC
+

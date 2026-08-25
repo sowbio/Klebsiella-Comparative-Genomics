@@ -1,0 +1,32 @@
+# Raw sequencing data
+01_raw_reads/
+03_trimmed/
+
+# FastQC reports / large QC intermediates
+02_qc_raw/
+04_qc_trimmed/
+
+# Large assembly intermediates
+05_assembly/
+
+# Large pangenome intermediate files
+10_pangenome/panaroo_results/combined_DNA_CDS.fasta
+10_pangenome/panaroo_results/combined_protein_CDS.fasta
+10_pangenome/panaroo_results/core_gene_alignment.aln
+10_pangenome/panaroo_results/core_gene_alignment_filtered.aln
+10_pangenome/panaroo_results/final_graph.gml
+10_pangenome/panaroo_results/pre_filt_graph.gml
+
+# Archives
+*.zip
+*.gz
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary/system files
+.DS_Store
+Thumbs.db
+*.swp
+10_pangenome/panaroo_results/aligned_gene_sequences/

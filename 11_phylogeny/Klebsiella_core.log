@@ -1,0 +1,207 @@
+IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    LAPTOP-4QMQAE2N (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s 10_pangenome/panaroo_results/core_gene_alignment_filtered.aln -m MFP -B 1000 -T AUTO --prefix 11_phylogeny/Klebsiella_core
+Seed:    631935 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 18 17:02:12 2026
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file 10_pangenome/panaroo_results/core_gene_alignment_filtered.aln ... Fasta format detected
+Reading fasta file: done in 1.77401 secs using 17.48% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 3.68136 secs using 44.64% CPU
+Alignment has 5 sequences with 3953613 columns, 104 distinct patterns
+47 parsimony-informative, 20426 singleton sites, 3933140 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0253491 secs using 1396% CPU
+   1  KP1766        0.03%    passed    100.00%
+   2  SRR7345603    0.03%    passed    100.00%
+   3  NR5632        0.03%    passed    100.00%
+   4  NJST258_1     0.01%    passed    100.00%
+   5  KP1768        0.03%    passed    100.00%
+****  TOTAL         0.03%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000025293 for long alignment
+Checking for duplicate sequences: done in 0.00822186 secs using 1619% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+21641 trees examined
+Threads: 1 / Time: 16.000 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -5562551
+Threads: 2 / Time: 3.530 sec / Speedup: 4.533 / Efficiency: 227% / LogL: -5562551
+Threads: 3 / Time: 3.611 sec / Speedup: 4.431 / Efficiency: 148% / LogL: -5562551
+Threads: 4 / Time: 3.911 sec / Speedup: 4.091 / Efficiency: 102% / LogL: -5562551
+Determining AUTO threadcount: done in 27.0548 secs using 187.9% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -5554864.929
+2. Current log-likelihood: -5554852.722
+3. Current log-likelihood: -5554847.744
+4. Current log-likelihood: -5554843.699
+5. Current log-likelihood: -5554837.874
+6. Current log-likelihood: -5554832.696
+7. Current log-likelihood: -5554826.416
+8. Current log-likelihood: -5554812.795
+9. Current log-likelihood: -5554798.098
+10. Current log-likelihood: -5554795.547
+11. Current log-likelihood: -5554792.108
+12. Current log-likelihood: -5554790.341
+13. Current log-likelihood: -5554788.661
+14. Current log-likelihood: -5554787.049
+15. Current log-likelihood: -5554785.550
+Optimal log-likelihood: -5554785.338
+Rate parameters:  A-C: 0.86769  A-G: 3.62082  A-T: 0.69869  C-G: 0.69632  C-T: 5.44511  G-T: 1.00000
+Base frequencies:  A: 0.202  C: 0.290  G: 0.304  T: 0.205
+Proportion of invariable sites: 0.497
+Gamma shape alpha: 998.447
+Parameters optimization took 15 rounds (0.036 sec)
+Time for fast ML tree search: 0.048 seconds
+
+NOTE: ModelFinder requires 0 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 3953613 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Akaike Information Criterion:           GTR+F
+Corrected Akaike Information Criterion: GTR+F
+Bayesian Information Criterion:         TIM+F
+Best-fit model: TIM+F chosen according to BIC
+
+All model information printed to 11_phylogeny/Klebsiella_core.model.gz
+CPU time for ModelFinder: 57.812 seconds (0h:0m:57s)
+Wall-clock time for ModelFinder: 28.091 seconds (0h:0m:28s)
+Generating 1000 samples for ultrafast bootstrap (seed: 631935)...
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -5554753.612
+2. Current log-likelihood: -5554753.453
+Optimal log-likelihood: -5554753.450
+Rate parameters:  A-C: 1.00000  A-G: 4.34246  A-T: 0.86472  C-G: 0.86472  C-T: 6.57914  G-T: 1.00000
+Base frequencies:  A: 0.202  C: 0.290  G: 0.304  T: 0.205
+Parameters optimization took 2 rounds (0.002 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000162125 secs using 182.6% CPU
+Computing ML distances took 0.000723 sec (of wall-clock time) 0.000999 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000105143 secs using 159.8% CPU
+Constructing RapidNJ tree: done in 0.000249863 secs using 133.3% CPU
+Computing RapidNJ tree took 0.003072 sec (of wall-clock time) 0.004931 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5554753.639
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.189 second
+Computing log-likelihood of 8 initial trees ... 0.001 seconds
+Current best score: -5554753.450
+
+Do NNI search on 9 best initial trees
+UPDATE BEST LOG-LIKELIHOOD: -5554753.450
+Finish initializing candidate tree set (9)
+Current best tree score: -5554753.450 / CPU time: 0.209
+Number of iterations: 9
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 10 / LogL: -5554753.450 / Time: 0h:0m:28s
+Iteration 20 / LogL: -5554996.400 / Time: 0h:0m:28s
+Iteration 30 / LogL: -5554996.400 / Time: 0h:0m:28s (0h:0m:0s left)
+Iteration 40 / LogL: -5554753.633 / Time: 0h:0m:28s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -5554753.450
+Iteration 50 / LogL: -5554753.450 / Time: 0h:0m:28s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -5554755.650
+Iteration 60 / LogL: -5554753.450 / Time: 0h:0m:28s (0h:0m:0s left)
+Iteration 70 / LogL: -5554753.450 / Time: 0h:0m:28s (0h:0m:0s left)
+Iteration 80 / LogL: -5554996.400 / Time: 0h:0m:28s (0h:0m:0s left)
+Iteration 90 / LogL: -5554753.633 / Time: 0h:0m:28s (0h:0m:0s left)
+Iteration 100 / LogL: -5554996.400 / Time: 0h:0m:28s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -5554755.650
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:28s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5554753.450
+Optimal log-likelihood: -5554753.448
+Rate parameters:  A-C: 1.00000  A-G: 4.34217  A-T: 0.86571  C-G: 0.86571  C-T: 6.57885  G-T: 1.00000
+Base frequencies:  A: 0.202  C: 0.290  G: 0.304  T: 0.205
+Parameters optimization took 1 rounds (0.003 sec)
+BEST SCORE FOUND : -5554753.448
+Creating bootstrap support values...
+Split supports printed to NEXUS file 11_phylogeny/Klebsiella_core.splits.nex
+Total tree length: 0.005
+
+Total number of iterations: 101
+CPU time used for tree search: 1.084 sec (0h:0m:1s)
+Wall-clock time used for tree search: 0.518 sec (0h:0m:0s)
+Total CPU time used: 59.189 sec (0h:0m:59s)
+Total wall-clock time used: 28.791 sec (0h:0m:28s)
+
+Computing bootstrap consensus tree...
+Reading input file 11_phylogeny/Klebsiella_core.splits.nex...
+5 taxa and 9 splits.
+Consensus tree written to 11_phylogeny/Klebsiella_core.contree
+Reading input trees file 11_phylogeny/Klebsiella_core.contree
+Log-likelihood of consensus tree: -5554753.560
+
+Analysis results written to: 
+  IQ-TREE report:                11_phylogeny/Klebsiella_core.iqtree
+  Maximum-likelihood tree:       11_phylogeny/Klebsiella_core.treefile
+  Likelihood distances:          11_phylogeny/Klebsiella_core.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          11_phylogeny/Klebsiella_core.splits.nex
+  Consensus tree:                11_phylogeny/Klebsiella_core.contree
+  Screen log file:               11_phylogeny/Klebsiella_core.log
+
+Date and Time: Tue Aug 18 17:02:49 2026

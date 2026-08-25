@@ -1,0 +1,6 @@
+Isolate,Species,ST,Yersiniabactin,Colibactin,Aerobactin,Salmochelin,RmpADC,rmpA2,Virulence_score,Resistance_score,Resistance_gene_count,K_locus,K_type,O_locus,O_type
+KP1766,Klebsiella pneumoniae,ST307,-,-,-,-,-,-,0,3,-,KL102,unknown (KL102),OL12,O12
+KP1768,Klebsiella pneumoniae,ST307,-,-,-,-,-,-,0,2,-,KL102,unknown (KL102),OL2α.2,O2β
+NJST258_1,Klebsiella pneumoniae,ST258,-,-,-,-,-,-,0,2,-,KL107,unknown (KL107),OL2α.2,O2β
+NR5632,Klebsiella pneumoniae,ST307,-,-,-,-,-,-,0,1,-,KL102,unknown (KL102),OL2α.2,O2β
+SRR7345603,Klebsiella pneumoniae,ST307,-,-,-,-,-,-,0,1,7,KL102,unknown (KL102),OL2α.2,O2β

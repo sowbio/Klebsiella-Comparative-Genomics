@@ -1,0 +1,11 @@
+##sequence-region NODE_33_length_22726_cov_40.357672 1 22726
+NODE_33_length_22726_cov_40.357672	Prodigal:v2.6	CDS	9	650	.	+	0	ID=CFOCILDN_04865;Name=xerD_2;gene=xerD_2;inference=ab initio prediction:Prodigal:v2.6,similar to AA sequence:UniProtKB:P0A0P0;locus_tag=CFOCILDN_04865;product=Tyrosine recombinase XerD
+NODE_33_length_22726_cov_40.357672	Prodigal:v2.6	CDS	1368	2378	.	-	0	ID=CFOCILDN_04866;Name=repB;gene=repB;inference=ab initio prediction:Prodigal:v2.6,similar to AA sequence:UniProtKB:Q57154;locus_tag=CFOCILDN_04866;product=RepFIB replication protein A
+NODE_33_length_22726_cov_40.357672	Prodigal:v2.6	CDS	4296	5267	.	+	0	ID=CFOCILDN_04868;Name=sopB;gene=sopB;inference=ab initio prediction:Prodigal:v2.6,similar to AA sequence:UniProtKB:P62558;locus_tag=CFOCILDN_04868;product=Protein SopB
+NODE_33_length_22726_cov_40.357672	Prodigal:v2.6	CDS	6095	6358	.	+	0	ID=CFOCILDN_04869;inference=ab initio prediction:Prodigal:v2.6,similar to AA sequence:ISfinder:IS1222;locus_tag=CFOCILDN_04869;product=IS3 family transposase IS1222
+NODE_33_length_22726_cov_40.357672	Prodigal:v2.6	CDS	6385	7041	.	+	0	ID=CFOCILDN_04870;inference=ab initio prediction:Prodigal:v2.6,similar to AA sequence:ISfinder:ISSen4;locus_tag=CFOCILDN_04870;product=IS3 family transposase ISSen4
+NODE_33_length_22726_cov_40.357672	Prodigal:v2.6	CDS	7989	8255	.	-	0	ID=CFOCILDN_04872;db_xref=COG:COG1662;inference=ab initio prediction:Prodigal:v2.6,similar to AA sequence:ISfinder:IS1A;locus_tag=CFOCILDN_04872;product=IS1 family transposase IS1A
+NODE_33_length_22726_cov_40.357672	Prodigal:v2.6	CDS	13456	14727	.	-	0	ID=CFOCILDN_04876;Name=umuC_2;db_xref=COG:COG0389;gene=umuC_2;inference=ab initio prediction:Prodigal:v2.6,similar to AA sequence:UniProtKB:P04152;locus_tag=CFOCILDN_04876;product=Protein UmuC
+NODE_33_length_22726_cov_40.357672	Prodigal:v2.6	CDS	14727	15152	.	-	0	ID=CFOCILDN_04877;eC_number=3.4.21.-;Name=umuD_2;gene=umuD_2;inference=ab initio prediction:Prodigal:v2.6,similar to AA sequence:UniProtKB:P22493;locus_tag=CFOCILDN_04877;product=Protein UmuD
+NODE_33_length_22726_cov_40.357672	Prodigal:v2.6	CDS	18049	18474	.	+	0	ID=CFOCILDN_04880;Name=klcA_2;gene=klcA_2;inference=ab initio prediction:Prodigal:v2.6,similar to AA sequence:UniProtKB:P52603;locus_tag=CFOCILDN_04880;product=Antirestriction protein KlcA
+>NODE_33_length_22726_cov_40.357672

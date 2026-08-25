@@ -1,0 +1,7 @@
+organism: Klebsiella pneumoniae NJST258_1 
+contigs: 6
+bases: 5540936
+CDS: 5229
+rRNA: 25
+tRNA: 77
+tmRNA: 1

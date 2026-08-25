@@ -1,0 +1,1 @@
+05_assembly/SRR7345603/contigs.fasta	ecoli_achtman_4	11307	adk(693)	fumC(1664)	gyrB(281)	icd(507)	mdh(636)	purA(909)	recA(865)

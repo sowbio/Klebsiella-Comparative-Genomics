@@ -1,0 +1,22 @@
+Isolate: SRR7345603
+Species: Klebsiella pneumoniae
+Plasmid replicon detected: IncFIB(K)
+Identity: 98.93%
+Coverage: 560/560 bp
+Contig: NODE_33_length_22726_cov_40.357672
+
+Relevant genes on NODE_33:
+- xerD_2 : Tyrosine recombinase XerD
+- repB   : RepFIB replication protein A
+- sopB   : Protein SopB
+- IS1222 : IS3 family transposase
+- ISSen4 : IS3 family transposase
+- IS1A   : IS1 family transposase
+- umuC_2 : Protein UmuC
+- umuD_2 : Protein UmuD
+- klcA_2 : Antirestriction protein KlcA
+
+Interpretation:
+NODE_33 contains an IncFIB(K)-associated plasmid region supported by
+PlasmidFinder and the presence of plasmid-associated genes including repB.
+No AMR gene detected by AMRFinder was located on NODE_33.
